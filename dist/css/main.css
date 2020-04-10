@@ -104,6 +104,17 @@ input[class^="btn-"]:hover {
   margin: 0 auto 1rem auto;
 }
 
+.bottom-line2 {
+  height: 2px;
+  width: 3rem;
+  background: #ffbc00;
+  display: block;
+  margin-top: 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 .section-title {
   font-size: 2rem;
   display: block;
@@ -579,9 +590,7 @@ img {
 }
 
 #contact-a .g-recaptcha {
-  width: 100%;
-  margin: auto;
-  padding-left: 40%;
+  display: inline-block;
 }
 
 #contact-a button[type="submit"] {
