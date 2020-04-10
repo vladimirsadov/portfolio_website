@@ -317,11 +317,6 @@ img {
       gap: 1.2rem;
       margin-bottom: 1.2rem;
 
-      div[data-netlify-recaptcha="true"] {
-        margin: auto;
-        padding: 0;
-      }
-
       // Grid Areas
       .name-input {
         grid-area: name;
@@ -343,6 +338,11 @@ img {
       .text-input {
         padding: 0.5rem 1rem;
       }
+    }
+
+    form div:last-child {
+      width: 100%;
+      margin: auto;
     }
 
     button[type="submit"] {

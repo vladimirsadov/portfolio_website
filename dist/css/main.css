@@ -537,11 +537,6 @@ img {
   margin-bottom: 1.2rem;
 }
 
-#contact-a .text-fields div[data-netlify-recaptcha="true"] {
-  margin: auto;
-  padding: 0;
-}
-
 #contact-a .text-fields .name-input {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -576,6 +571,11 @@ img {
 
 #contact-a .text-fields .text-input {
   padding: 0.5rem 1rem;
+}
+
+#contact-a form div:last-child {
+  width: 100%;
+  margin: auto;
 }
 
 #contact-a button[type="submit"] {
