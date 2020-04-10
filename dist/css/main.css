@@ -537,7 +537,7 @@ img {
   margin-bottom: 1.2rem;
 }
 
-#contact-a .text-fields div:last-child {
+#contact-a .text-fields div[data-netlify-recaptcha="true"] {
   margin: auto;
   padding: 0;
 }

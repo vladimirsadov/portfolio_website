@@ -317,7 +317,7 @@ img {
       gap: 1.2rem;
       margin-bottom: 1.2rem;
 
-      div:last-child {
+      div[data-netlify-recaptcha="true"] {
         margin: auto;
         padding: 0;
       }
