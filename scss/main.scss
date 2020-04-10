@@ -317,6 +317,11 @@ img {
       gap: 1.2rem;
       margin-bottom: 1.2rem;
 
+      div:last-child {
+        margin: auto;
+        padding: 0;
+      }
+
       // Grid Areas
       .name-input {
         grid-area: name;
