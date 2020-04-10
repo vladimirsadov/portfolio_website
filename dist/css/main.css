@@ -578,6 +578,11 @@ img {
   margin: auto;
 }
 
+#contact-a .g-recaptcha {
+  width: 100%;
+  margin: auto;
+}
+
 #contact-a button[type="submit"] {
   width: 50%;
 }
